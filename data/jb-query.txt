@@ -1,0 +1,140 @@
+
+
+# right putamen
+#----------------
+
+nidm query -nl \
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/KKI/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_c/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_d/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/NYU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/OHSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Olin/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Pitt/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SBL/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SDSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Stanford/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Trinity/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/USM/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
+-q repronim_simple2_query_right-putamen.txt  -o right-putamen.csv
+
+
+--------------------------------------------------------------------------------#
+# left putamen
+#----------------
+
+nidm query -nl \
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/KKI/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_c/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_d/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/NYU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/OHSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Olin/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Pitt/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SBL/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SDSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Stanford/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Trinity/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/USM/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
+-q repronim_simple2_query_left-putamen.txt  -o left-putamen.csv
+
+--------------------------------------------------------------------------------#
+# left caudate 
+#----------------
+
+nidm query -nl \
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/KKI/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_c/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_d/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/NYU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/OHSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Olin/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Pitt/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SBL/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SDSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Stanford/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Trinity/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/USM/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
+-q repronim_simple2_query_left-caudate.txt  -o left-caudate.csv
+
+
+--------------------------------------------------------------------------------#
+# right caudate 
+#----------------
+
+nidm query -nl \
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/KKI/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Leuven_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_a/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_b/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_c/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/MaxMun_d/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/NYU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/OHSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Olin/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Pitt/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SBL/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/SDSU/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Stanford/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Trinity/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UCLA_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_1/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/UM_2/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/USM/nidm.ttl,\
+simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
+-q repronim_simple2_query_right-caudate.txt  -o right-caudate.csv
+
+
+
+
+
+
+
+#--------------------------------------------------------------------------------------------
+# test with diagnosis
+nidm query -nl simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl \
+-q query.txt -o test-diagnosis.csv
+#--------------------------------------------------------------------------------------------
+
+
