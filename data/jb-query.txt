@@ -3,7 +3,7 @@
 # left putamen +
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -35,7 +35,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # right putamen +
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -67,7 +67,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # right caudate +
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -98,7 +98,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # left caudate +
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -131,7 +131,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # right putamen
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -163,7 +163,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # left putamen
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -194,7 +194,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # left caudate 
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -226,7 +226,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 # right caudate 
 #----------------
 
-nidm query -nl \
+pynidm query -nl \
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Caltech/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl,\
 simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_b/nidm.ttl,\
@@ -261,7 +261,7 @@ simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/Yale/nidm.ttl \
 
 #--------------------------------------------------------------------------------------------
 # test with diagnosis
-nidm query -nl simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl \
+pynidm query -nl simple2_NIDM_examples/datasets.datalad.org/abide/RawDataBIDS/CMU_a/nidm.ttl \
 -q query.txt -o test-diagnosis.csv
 #--------------------------------------------------------------------------------------------
 
